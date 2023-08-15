@@ -1,0 +1,190 @@
+<html>
+
+  <head>
+    <title>Als Restaurant - Sächsische Spezialitäten</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+    <style>
+      html{
+        scroll-behavior: smooth;
+      }
+      body {
+        
+        margin: 0px;
+        font-family: 'PT Sans', sans-serif;
+      }
+
+      .header {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .koch {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+      }
+      .bg1 {
+        padding-left: 140px !important;
+        padding-right: 140px !important;
+        background-color: #A9E2F3;
+        padding: 16px;
+      }
+      .bg2 {
+        padding-left: 140px !important;
+        padding-right: 140px !important;
+        background-color: #F5F6CE;
+        padding: 16px;
+      }
+      .menu {
+        color: rgba(0,0,0,0.5);
+        position: absolute;
+        left: 0px;
+        top: 0px;     
+
+      }  
+
+      .menu a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+      }	
+
+      .menu a:hover{
+        text-decoration: underline;
+        color: gray;
+
+      }
+
+      .footer {
+        padding: 20px;
+        background-color: #545454;
+        display: flex;
+        justify-content: space-between;
+
+      }
+
+      .footerchild {
+        color: white;
+        width: 30%;
+
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <img class=header src="img/header.jpg">
+
+    <br>
+    <div class = menu>
+      <a href="#restaurant"> Unser Restaurant </a>
+      <a href="#opening-hours"> Öffnungszeiten </a>
+      <a href="#route" title="Hier findest du unser Restaurant"> Anfahrt </a>
+      <a href="#menu"> Speisekarte </a>
+      <a href="#contact"> Kontakt </a>
+      <a href="#"> Impressum </a>
+    </div>
+    <br>
+    <div class = bg1 id="restaurant">
+      <h1>Herzlich wilkommen</h1>
+      <br>
+      <br>
+      Wir servieren typisch sächsische Spezialitäten
+    </div>
+
+    <div class = bg2 id="opening-hours">
+      Öffnungszeiten: <br>
+      Mo - Fr: 11 - 23 Uhr <br>
+      Sa: 11 - 01 Uhr <br>
+      So, FT:  09 - 23 Uhr
+    </div>
+
+    <div class = bg1 id="route">
+      <h2>Anfahrt</h2><br>
+      Unser Restaurant befindet sich in der <i>Goethestraße 2, 12345 Zufallshausen</i><br>
+      Dazu nehmt ihr auf der A99 die <b>Ausfahrt Zufallshausen</b> und biegt rechts ab.<br>
+      Nach etwa <u>500m</u> findet Ihr unser Restaurant auf der linken Seite.<br>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36571.47171095859!2d12.330785921424708!3d51.33702493643316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a6f7f419438d23%3A0x84f9c448d8df3ff4!2sZoo%20Leipzig!5e0!3m2!1sde!2sde!4v1650961610770!5m2!1sde!2sde" width="800" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class = bg2  id="menu">
+      <h2>Tageskarte</h2>
+      <table>
+        <tr>
+          <td>1</td>
+          <td>Spargel a la Hollandaise</td>
+          <td>15,00€</td>
+          <td>frischer Spargel mit selbstgemachter Hollandaise, dazu Schwarzwälder Schinken und Petersilienkartoffeln</td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td>Kalbsschnitzel</td>
+          <td>21,00€</td>
+          <td>Kalbsschnitzel mit Bratensoße an Brokkoli und Herzoginnenkartoffeln</td>
+        </tr>
+
+        <tr>
+          <td>3</td>
+          <td>Marinierter Hering Hausfrauen-Art</td>
+          <td>12,00€</td>
+          <td>Hering in Sahnesoße mit Apfel und Zwiebeln mariniert, dazu Petersilienkartoffeln</td>
+        </tr>
+
+        <tr>
+          <td>4</td>
+          <td>Bauernfrühstück</td>
+          <td>12,00€</td>
+          <td>Kartoffelomelett mit Zwiebeln und Speck</td>
+        </tr>
+
+        <tr>
+          <td>5</td>
+          <td>Sächsische Kartoffelsuppe</td>
+          <td>8,00€</td>
+          <td>Traditionell sächsische Kartoffelsuppe mit Majoran und Speck</td>
+        </tr>
+
+        <tr>
+          <td>6</td>
+          <td>Dessert: Eis mit frischen Erdbeeren</td>
+          <td>8,00€</td>
+          <td>Gemischte Eiskreation an frischen Erdbeeren, auf Wunsch mit Sahne</td>
+        </tr>
+
+      </table>
+      Öfnen Sie unsere Tageskarte als <a href="downloads/tageskarte.pdf" target="_blank">PDF</a>
+
+    </div>
+ 
+    <div class = bg1 id="contact">
+      <h2>Kontakt</h2>
+      So können Sie uns erreichen und einen Tisch reservieren <br>
+      Telefon: <a href="tel: +49 (0) 3413020815"> +49 (0) 3413020815</a>
+      E-Mail: <a href="mailto: info@als-restaurant.de"> info@als-restaurant.de</a>
+
+    </div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/758ZVxi3ROA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <img class=koch src="img/koch.jpg">
+
+    <div class = footer>
+      <div class = footerchild>
+        Copyright 2022 ALs Restaurant GBR
+
+      </div>
+      <div class = footerchild>
+        Impressum<br>
+        Kontakt<br>
+        Datenschutz<br>
+        Cookie-Richtlinien
+
+      </div>
+
+
+    </div>
+
+  </body>
+</html>
